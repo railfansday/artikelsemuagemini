@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://railfansday.github.io/artikelsemuagemini/sitemap.xml
+Sitemap: https://railfansday.github.io/artikelsemuagemini/feed.xml
+Crawl-delay: 1
