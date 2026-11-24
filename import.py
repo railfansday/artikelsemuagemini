@@ -195,7 +195,8 @@ def generate_article_with_gemini(raw_title, source_html, source_url=""):
     lines = [ln.strip() for ln in cleaned.splitlines() if ln.strip()]
     if len(lines) >= 2:
         fallback_title = re.sub(r'^#+\s*', '', lines[0])[:220]
-        body_paras = "".join(f"<p>{re.sub(r'^#+\s*', '', ln)}</p>" for ln in lines[1:])
+        cleaned_lines = [re.sub(r'^#+\s*', '', ln) for ln in lines[1:]]
+        body_paras = "".join(f"<p>{item}</p>" for item in cleaned_lines)
         if fallback_title and body_paras:
             return fallback_title, body_paras
 
