@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-28T00:57:17.478340",
-  "total_articles": 370,
+  "generated_at": "2026-11-28T14:55:01.521087",
+  "total_articles": 397,
   "by_category": {
-    "General": 300,
-    "AI & Tech": 12,
-    "Business & Policy": 38,
+    "Business & Policy": 39,
+    "General": 325,
+    "AI & Tech": 13,
     "Gadgets": 6,
     "EV & Auto": 3,
     "Hardware & Chips": 11
   },
   "top_sources": {
-    "Theguardian": 192,
-    "Co": 128,
+    "Theguardian": 210,
+    "Co": 137,
     "CNN": 50
   }
 }
